@@ -1,0 +1,235 @@
+{
+  "nav": {
+    "destination": "Destination",
+    "about": "About Us",
+    "package": "Package",
+    "gallery": "Gallery",
+    "testimonials": "Testimonials",
+    "contact": "Contact us",
+    "hotline": "hot line number",
+    "phone": "(+60) 17-904 0344"
+  },
+  "hero": {
+    "title": "Holiday Travel Adventure",
+    "subtitle": "Unveil the Extraordinary",
+    "description": "Embark on a journey through the heart of Southeast Asia, where golden sunrises illuminate pristine beaches, ancient temples, and vibrant cities. From the tropical serenity of Bali to the electric energy of Bangkok, and the timeless charm of Vietnam to the architectural wonders of Malaysia—we bring your dream vacation to life. Experience the perfect harmony of culture, adventure, and luxury in destinations designed to leave you breathless.",
+    "cta": "Request A Quote",
+    "social": {
+      "follow": "Follow Us"
+    }
+  },
+  "destinations": {
+    "title": "Most Popular Destination",
+    "titleBg": "DESTINATION",
+    "subtitle": "Discover breathtaking destinations crafted for unforgettable adventures, offering the perfect blend of beauty, culture, and experience.",
+    "bookNow": "Book Now",
+    "startFrom": "Start From",
+    "people": "People",
+    "days": "Days",
+    "nights": "Nights",
+    "destinations": {
+      "bali": {
+        "name": "Bali, Indonesia",
+        "people": "2 - 4",
+        "days": "5",
+        "nights": "4",
+        "price": "1,299"
+      },
+      "bangkok": {
+        "name": "Bangkok, Thailand",
+        "people": "2 - 6",
+        "days": "4",
+        "nights": "3",
+        "price": "899"
+      },
+      "kualalumpur": {
+        "name": "Kuala Lumpur, Malaysia",
+        "people": "2 - 8",
+        "days": "5",
+        "nights": "4",
+        "price": "1,199"
+      },
+      "hochiminh": {
+        "name": "Ho Chi Minh, Vietnam",
+        "people": "3 - 6",
+        "days": "6",
+        "nights": "5",
+        "price": "1,499"
+      }
+    }
+  },
+  "about": {
+    "titleBg": "ABOUT US",
+    "title": "Who We Are",
+    "paragraph1": "We create meaningful experiences that connect you with the beauty of the world. Our mission is to make travel effortless, inspiring, and unforgettable for every explorer.",
+    "paragraph2": "With years of expertise in the tourism industry, our team specializes in designing curated travel packages that cater to all types of travelers — from solo adventurers and couples to families and corporate groups. We focus on delivering comfort, authenticity, and value so you can enjoy every moment of your journey.",
+    "features": {
+      "personalized": {
+        "title": "Personalized Itineraries",
+        "icon": "map"
+      },
+      "guides": {
+        "title": "Expert Local Guides",
+        "icon": "user"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "icon": "headset"
+      }
+    },
+    "cta": "Request A Quote"
+  },
+  "packages": {
+    "title": "Exclusive Tour Packages",
+    "titleBg": "PACKAGE",
+    "subtitle": "Explore curated travel packages designed to make your journey smooth, exciting, and stress-free.",
+    "bookNow": "Book Now",
+    "startFrom": "Start From",
+    "loadMore": "Load More",
+    "days": "Days",
+    "nights": "Nights",
+    "packages": {
+      "bali": {
+        "name": "Tropical Paradise Escape Bali, Indonesia",
+        "description": "Discover the breathtaking beauty of Bali with pristine beaches, ancient temples, and vibrant culture.",
+        "days": "5",
+        "nights": "4",
+        "price": "1,299"
+      },
+      "bangkok": {
+        "name": "Cultural Discovery Bangkok, Thailand",
+        "description": "Explore the vibrant streets of Bangkok with its rich history, delicious cuisine, and modern attractions.",
+        "days": "4",
+        "nights": "3",
+        "price": "899"
+      },
+      "kualalumpur": {
+        "name": "Modern Marvels Kuala Lumpur, Malaysia",
+        "description": "Experience the perfect blend of modern architecture, diverse culture, and culinary delights.",
+        "days": "5",
+        "nights": "4",
+        "price": "1,199"
+      },
+      "hochiminh": {
+        "name": "Historic Charm Ho Chi Minh, Vietnam",
+        "description": "Immerse yourself in the rich history and vibrant energy of Vietnam's largest city.",
+        "days": "6",
+        "nights": "5",
+        "price": "1,499"
+      },
+      "taiwan": {
+        "name": "Island Adventure Taiwan",
+        "description": "Discover Taiwan's stunning landscapes, night markets, and unique cultural experiences.",
+        "days": "5",
+        "nights": "4",
+        "price": "1,399"
+      },
+      "singapore": {
+        "name": "Garden City Singapore",
+        "description": "Explore the perfect fusion of nature and urban sophistication in Singapore.",
+        "days": "4",
+        "nights": "3",
+        "price": "1,599"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Travel Gallery",
+    "titleBg": "GALLERY",
+    "loadMore": "Load More"
+  },
+  "testimonials": {
+    "title": "What Our Travelers Say",
+    "titleBg": "TESTIMONIALS",
+    "totalReviews": "100+ Reviews",
+    "reviews": {
+      "james": {
+        "name": "James Carter",
+        "comment": "Booking my trip with Holiday Travel Adventure was the best decision ever! From start to finish, everything was seamless — the guides were knowledgeable, the accommodations were perfect, and every destination exceeded my expectations. I can't wait to plan my next adventure with them."
+      },
+      "sarah": {
+        "name": "Sarah Johnson",
+        "comment": "An absolutely incredible experience! The attention to detail and personalized service made our family vacation unforgettable. Every moment was perfectly planned, and we felt taken care of throughout the entire journey."
+      },
+      "michael": {
+        "name": "Michael Chen",
+        "comment": "Professional, reliable, and truly passionate about creating amazing travel experiences. The team went above and beyond to ensure our honeymoon was magical. Highly recommended for anyone seeking adventure and luxury!"
+      }
+    }
+  },
+  "team": {
+    "title": "Meet Our Expert Travel Team",
+    "followButton": "Follow",
+    "stats": {
+      "postsLabel": "post",
+      "followersLabel": "followers",
+      "followingLabel": "following"
+    },
+    "ceo": {
+      "name": "Aladdin Taher Elghawi",
+      "title": "Founder & CEO",
+      "stats": {
+        "posts": "100",
+        "followers": "5k",
+        "following": "100"
+      },
+      "social": {
+        "facebook": "https://www.facebook.com/share/1CZjCvpbQm/?mibextid=wwXIfr",
+        "instagram": "https://www.instagram.com/atot1993?igsh=ZTZkMng5cWpoc3J2&utm_source=qr"
+      }
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "form": {
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "subject": "Subject",
+      "comment": "Comment",
+      "submit": "Send Message",
+      "sending": "Sending..."
+    },
+    "info": {
+      "title": "Visit Our Office",
+      "callUs": "Call Us",
+      "phone": "(+60) 17-904 0344",
+      "emailUs": "Email Us",
+      "email": "TRAVELADVENTUREHOLIDAY@gmail.com",
+      "location": "Our Location",
+      "address": "Kuala Lumpur, Malaysia"
+    },
+    "successMessage": "Thank you! Your message has been sent successfully. We'll get back to you soon."
+  },
+  "footer": {
+    "brand": {
+      "name": "Holiday Travel Adventure",
+      "description": "Your gateway to unforgettable journeys. At Holiday Travel Adventure, we craft personalized experiences that explore the hidden gems of Southeast Asia and beyond."
+    },
+    "links": {
+      "title": "Useful Links",
+      "destination": "Destination",
+      "about": "About Us",
+      "package": "Package",
+      "gallery": "Gallery",
+      "testimonials": "Testimonials",
+      "contact": "Contact us"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "phone": "(+60) 17-904 0344",
+      "email": "TRAVELADVENTUREHOLIDAY@gmail.com",
+      "address": "Kuala Lumpur, Malaysia"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Join our Mailing List",
+      "namePlaceholder": "Name",
+      "emailPlaceholder": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "successMessage": "Thank you for subscribing to our newsletter!"
+    },
+    "copyright": "©2025. All Rights Reserved."
+  }
+}
