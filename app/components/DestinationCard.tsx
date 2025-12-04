@@ -91,17 +91,17 @@ export default function DestinationCard({
 
         {/* Bottom Section */}
         <div className="mt-auto pt-3 sm:pt-4 border-t border-gray-700">
-          <div className="flex items-center justify-between gap-2">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-2">
             <a
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-orange-400 transition-colors text-sm font-medium flex items-center gap-1 min-h-[44px] sm:min-h-0"
+              className="text-white hover:text-orange-400 transition-colors text-sm font-medium flex items-center gap-1 justify-center sm:justify-start"
             >
               {t("destinations.bookNow")}
               <FaArrowRight className="w-3 h-3" />
             </a>
-            <div className="text-green-500 font-semibold text-sm whitespace-nowrap">
+            <div className="text-green-500 font-semibold text-sm text-center sm:text-right">
               {t("destinations.startFrom")} : ${dest.price}
             </div>
           </div>
@@ -110,4 +110,3 @@ export default function DestinationCard({
     </div>
   );
 }
-
