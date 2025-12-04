@@ -181,43 +181,43 @@ export default function ContactSection() {
               </svg>
             </a>
 
-            {/* Contact Info Card Overlay */}
-            <div className="absolute bottom-8 right-8 bg-white rounded-xl shadow-2xl p-6 max-w-xs">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">
+            {/* Contact Info Card Overlay - Responsive positioning */}
+            <div className="absolute bottom-4 left-4 right-4 sm:bottom-6 sm:left-auto sm:right-6 lg:bottom-8 lg:right-8 bg-white rounded-xl shadow-2xl p-4 sm:p-5 lg:p-6 max-w-full sm:max-w-[280px] lg:max-w-xs">
+              <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 sm:mb-4">
                 {t("contact.info.title")}
               </h3>
 
-              <div className="space-y-4">
+              <div className="space-y-3 sm:space-y-4">
                 {/* Call Us */}
                 <div>
-                  <h4 className="text-sm font-semibold text-gray-700 mb-1">
+                  <h4 className="text-xs sm:text-sm font-semibold text-gray-700 mb-1">
                     {t("contact.info.callUs")}
                   </h4>
                   <div className="flex items-center gap-2 text-gray-600">
-                    <FaPhone className="w-4 h-4 text-orange-400" />
-                    <span className="text-sm">{t("contact.info.phone")}</span>
+                    <FaPhone className="w-3 h-3 sm:w-4 sm:h-4 text-orange-400 flex-shrink-0" />
+                    <span className="text-xs sm:text-sm break-all">{t("contact.info.phone")}</span>
                   </div>
                 </div>
 
                 {/* Email Us */}
                 <div>
-                  <h4 className="text-sm font-semibold text-gray-700 mb-1">
+                  <h4 className="text-xs sm:text-sm font-semibold text-gray-700 mb-1">
                     {t("contact.info.emailUs")}
                   </h4>
                   <div className="flex items-center gap-2 text-gray-600">
-                    <FaEnvelope className="w-4 h-4 text-orange-400" />
-                    <span className="text-sm">{t("contact.info.email")}</span>
+                    <FaEnvelope className="w-3 h-3 sm:w-4 sm:h-4 text-orange-400 flex-shrink-0" />
+                    <span className="text-xs sm:text-sm break-all">{t("contact.info.email")}</span>
                   </div>
                 </div>
 
                 {/* Our Location */}
                 <div>
-                  <h4 className="text-sm font-semibold text-gray-700 mb-1">
+                  <h4 className="text-xs sm:text-sm font-semibold text-gray-700 mb-1">
                     {t("contact.info.location")}
                   </h4>
                   <div className="flex items-start gap-2 text-gray-600">
-                    <FaMapMarkerAlt className="w-4 h-4 text-orange-400 mt-1" />
-                    <span className="text-sm">{t("contact.info.address")}</span>
+                    <FaMapMarkerAlt className="w-3 h-3 sm:w-4 sm:h-4 text-orange-400 mt-1 flex-shrink-0" />
+                    <span className="text-xs sm:text-sm">{t("contact.info.address")}</span>
                   </div>
                 </div>
               </div>

@@ -63,17 +63,17 @@ export default function DestinationsSection() {
 
         {/* Destinations Cards with Navigation */}
         <div className="relative">
-          {/* Left Arrow */}
+          {/* Left Arrow - Now visible on mobile */}
           <button
             onClick={() => scroll("left")}
-            className="hidden lg:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 w-12 h-12 rounded-full border-2 border-white/30 bg-transparent hover:bg-white/10 transition-colors items-center justify-center text-white z-20"
+            className="absolute left-2 lg:left-0 top-1/2 -translate-y-1/2 lg:-translate-x-12 w-10 h-10 lg:w-12 lg:h-12 rounded-full border-2 border-white/30 bg-gray-900/80 lg:bg-transparent hover:bg-white/10 transition-colors flex items-center justify-center text-white z-20 shadow-lg lg:shadow-none"
             aria-label="Previous destinations"
           >
-            <FaChevronLeft className="w-5 h-5" />
+            <FaChevronLeft className="w-4 h-4 lg:w-5 lg:h-5" />
           </button>
 
           {/* Cards Container */}
-          <div className="bg-gray-800/50 rounded-3xl p-6 md:p-8">
+          <div className="bg-gray-800/50 rounded-3xl p-4 md:p-6 lg:p-8">
             {loading ? (
               <div className="flex items-center justify-center h-64">
                 <div className="text-white text-xl">Loading destinations...</div>
@@ -89,7 +89,7 @@ export default function DestinationsSection() {
             ) : (
               <div
                 ref={scrollContainerRef}
-                className="flex gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory"
+                className="flex gap-4 md:gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory touch-pan-x"
               >
                 {destinations.map((destination) => (
                   <div 
@@ -106,13 +106,13 @@ export default function DestinationsSection() {
             )}
           </div>
 
-          {/* Right Arrow */}
+          {/* Right Arrow - Now visible on mobile */}
           <button
             onClick={() => scroll("right")}
-            className="hidden lg:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 w-12 h-12 rounded-full border-2 border-white/30 bg-transparent hover:bg-white/10 transition-colors items-center justify-center text-white z-20"
+            className="absolute right-2 lg:right-0 top-1/2 -translate-y-1/2 lg:translate-x-12 w-10 h-10 lg:w-12 lg:h-12 rounded-full border-2 border-white/30 bg-gray-900/80 lg:bg-transparent hover:bg-white/10 transition-colors flex items-center justify-center text-white z-20 shadow-lg lg:shadow-none"
             aria-label="Next destinations"
           >
-            <FaChevronRight className="w-5 h-5" />
+            <FaChevronRight className="w-4 h-4 lg:w-5 lg:h-5" />
           </button>
         </div>
       </div>
