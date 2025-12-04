@@ -52,14 +52,14 @@ export default function DestinationCard({
     : "bg-gradient-to-br from-blue-400 via-teal-500 to-green-600";
 
   return (
-    <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 flex flex-col">
+    <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
       {/* Image */}
-      <div className={`h-48 ${gradient} relative overflow-hidden`}>
+      <div className={`h-44 sm:h-48 md:h-52 ${gradient} relative overflow-hidden`}>
         {finalImageUrl ? (
           <img
             src={finalImageUrl}
             alt={dest.name}
-            className="w-full h-full object-contain"
+            className="w-full h-full object-cover"
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center">
@@ -71,17 +71,17 @@ export default function DestinationCard({
       </div>
 
       {/* Content */}
-      <div className="p-6 flex-1 flex flex-col">
+      <div className="p-4 sm:p-5 md:p-6 flex-1 flex flex-col">
         {/* Destination Name */}
-        <h3 className="text-xl font-semibold text-white mb-4">
+        <h3 className="text-lg sm:text-xl font-semibold text-white mb-3 sm:mb-4">
           {dest.name}
         </h3>
 
         {/* Details */}
-        <div className="space-y-3 mb-6">
+        <div className="space-y-2 sm:space-y-3 mb-4 sm:mb-6">
 
           <div className="flex items-center gap-2 text-gray-300 text-sm">
-            <FaCalendarAlt className="w-4 h-4" />
+            <FaCalendarAlt className="w-4 h-4 flex-shrink-0" />
             <span>
               {dest.days} {t("destinations.days")} {dest.nights}{" "}
               {t("destinations.nights")}
@@ -90,18 +90,18 @@ export default function DestinationCard({
         </div>
 
         {/* Bottom Section */}
-        <div className="mt-auto pt-4 border-t border-gray-700">
-          <div className="flex items-center justify-between">
+        <div className="mt-auto pt-3 sm:pt-4 border-t border-gray-700">
+          <div className="flex items-center justify-between gap-2">
             <a
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-orange-400 transition-colors text-sm font-medium flex items-center gap-1"
+              className="text-white hover:text-orange-400 transition-colors text-sm font-medium flex items-center gap-1 min-h-[44px] sm:min-h-0"
             >
               {t("destinations.bookNow")}
               <FaArrowRight className="w-3 h-3" />
             </a>
-            <div className="text-green-500 font-semibold text-sm">
+            <div className="text-green-500 font-semibold text-sm whitespace-nowrap">
               {t("destinations.startFrom")} : ${dest.price}
             </div>
           </div>
