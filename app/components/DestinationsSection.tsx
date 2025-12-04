@@ -89,12 +89,12 @@ export default function DestinationsSection() {
             ) : (
               <div
                 ref={scrollContainerRef}
-                className="flex gap-4 md:gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory touch-pan-x"
+                className="flex gap-4 md:gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory touch-pan-x -mx-4 px-4 md:-mx-6 md:px-6 lg:-mx-8 lg:px-8"
               >
                 {destinations.map((destination) => (
                   <div 
                     key={destination.id} 
-                    className="min-w-full md:min-w-[calc(50%-12px)] lg:min-w-[calc(25%-18px)] flex-shrink-0 snap-start"
+                    className="w-[calc(100vw-2rem-2rem)] md:w-[calc(50%-12px)] lg:w-[calc(25%-18px)] flex-shrink-0 snap-start"
                   >
                     <DestinationCard
                       destination={destination}
